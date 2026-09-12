@@ -11,7 +11,7 @@ export default function Footer() {
                     <a href="https://github.com/djmnzzz" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition-colors" title="GitHub">
                         <FiGithub />
                     </a>
-                    <a href="https://www.linkedin.com/in/daniela-jimenez-852a0a3b6/" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition-colors" title="LinkedIn">
+                    <a href="https://www.linkedin.com/in/daniela-jimenezzz/" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition-colors" title="LinkedIn">
                         <FiLinkedin />
                     </a>
                     <a href="mailto:dani05jimenez20@gmail.com" className="hover:text-blue-400 transition-colors" title="Contact">

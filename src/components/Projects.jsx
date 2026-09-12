@@ -5,28 +5,28 @@ export default function Projects() {
     const projects = [
         {
             title: "El Rancho - Veterinary Management System",
-            image: "/public/el-rancho.png",
+            image: "/el-rancho.png",
             tech: ["React", "Node.js", "REST API", "Tailwind CSS"],
             description: "Full-stack web application with role-based access control (Client, Employee, Admin) to manage appointments, medical services, and system metrics.",
             github: "https://github.com/JesusM2007/El-Rancho.git"
         },
         {
             title: "EcoMap Costa Rica",
-            image: "/public/ecomap.png",
+            image: "/ecomap.png",
             tech: ["HTML5", "CSS3", "JavaScript", "JSON"],
             description: "Interactive web platform designed to locate recycling collection points across Costa Rica and log user ecological activities.",
             github: "https://github.com/djmnzzz/EcoMap.git"
         },
         {
             title: "Condominium Management System",
-            image: "/public/condominium.png",
+            image: "/condominium.png",
             tech: ["C#", "ADO.NET", "SQL Server", "Windows Forms"],
             description: "Desktop software built using N-Tier Client-Server Architecture to streamline condominium administration and database operations.",
             github: "https://git.isw.utn.ac.cr/danielajmnz/gestioncondominios.git"
         },
         {
             title: "Knight's Tour Algorithmic Solver",
-            image: "/public/knights-tour.png",
+            image: "/knights-tour.png",
             tech: ["C++", "Algorithms", "Data Structures"],
             description: "Comparative study and benchmark of graph exploration algorithms, comparing Backtracking vs. Warnsdorff's heuristic strategy.",
             github: "https://git.isw.utn.ac.cr/danielajmnz/recorridodelcaballo.git"

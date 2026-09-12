@@ -1,4 +1,4 @@
-import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail, FiDownload } from 'react-icons/fi';
 
 export default function Hero() {
     return (
@@ -20,10 +20,27 @@ export default function Hero() {
                     </p>
 
                     <div className="mt-8 flex flex-wrap items-center gap-4">
-                        <a href="#projects" className="px-5 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-medium text-sm transition-all shadow-lg shadow-blue-600/25">
+                        <a
+                            href="#projects"
+                            className="px-5 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-medium text-sm transition-all shadow-lg shadow-blue-600/25"
+                        >
                             Explore Work
                         </a>
-                        <a href="mailto:dani05jimenez20@gmail.com" className="px-5 py-2.5 rounded-lg border border-slate-800 hover:border-blue-500/50 hover:bg-blue-950/20 text-slate-300 font-medium text-sm transition-all">
+
+                        <a
+                            href="/CV_Daniela_Jimenez.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="flex items-center gap-2 px-5 py-2.5 rounded-lg border border-blue-500/40 hover:border-blue-400 bg-blue-950/30 hover:bg-blue-900/50 text-blue-300 font-medium text-sm transition-all"
+                        >
+                            <FiDownload className="text-base" />
+                            Download CV
+                        </a>
+
+                        <a
+                            href="mailto:dani05jimenez20@gmail.com"
+                            className="px-5 py-2.5 rounded-lg border border-slate-800 hover:border-blue-500/50 hover:bg-blue-950/20 text-slate-300 font-medium text-sm transition-all"
+                        >
                             Get in touch
                         </a>
                     </div>
@@ -32,7 +49,7 @@ export default function Hero() {
                         <a href="https://github.com/djmnzzz" target="_blank" rel="noreferrer" className="hover:text-blue-400 text-xl transition-colors" title="GitHub">
                             <FiGithub />
                         </a>
-                        <a href="https://www.linkedin.com/in/daniela-jimenez-852a0a3b6/" target="_blank" rel="noreferrer" className="hover:text-blue-400 text-xl transition-colors" title="LinkedIn">
+                        <a href="https://www.linkedin.com/in/daniela-jimenezzz/" target="_blank" rel="noreferrer" className="hover:text-blue-400 text-xl transition-colors" title="LinkedIn">
                             <FiLinkedin />
                         </a>
                         <a href="mailto:dani05jimenez20@gmail.com" className="hover:text-blue-400 text-xl transition-colors" title="Email">
