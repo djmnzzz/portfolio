@@ -8,29 +8,13 @@ export default function Footer() {
                     <span className="text-blue-400">~/daniiii</span> — Designed & Developed by Daniela Jiménez
                 </div>
                 <div className="flex gap-5 text-slate-400 text-lg">
-                    <a
-                        href="https://github.com/djmnzzz"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="hover:text-blue-400 transition-colors"
-                        title="GitHub"
-                    >
+                    <a href="https://github.com/djmnzzz" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition-colors" title="GitHub">
                         <FiGithub />
                     </a>
-                    <a
-                        href="#"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="hover:text-blue-400 transition-colors"
-                        title="LinkedIn"
-                    >
+                    <a href="https://www.linkedin.com/in/daniela-jimenez-852a0a3b6/" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition-colors" title="LinkedIn">
                         <FiLinkedin />
                     </a>
-                    <a
-                        href="mailto:tu-correo@ejemplo.com"
-                        className="hover:text-blue-400 transition-colors"
-                        title="Contact"
-                    >
+                    <a href="mailto:dani05jimenez20@gmail.com" className="hover:text-blue-400 transition-colors" title="Contact">
                         <FiMail />
                     </a>
                 </div>
