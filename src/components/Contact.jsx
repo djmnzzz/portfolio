@@ -7,7 +7,7 @@ export default function Contact() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         const form = e.target;
-        const response = await fetch('https://formspree.io/f/dani05jimenez20@gmail.com', {
+        const response = await fetch('https://formspree.io/f/xvkojore', {
             method: 'POST',
             body: new FormData(form),
             headers: { 'Accept': 'application/json' }
